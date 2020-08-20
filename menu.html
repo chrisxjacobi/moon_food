@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Moon Food</title>
+
+    <link href="reset.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+    <script src="JSCode/calculate.js" async></script>
+
+</head>
+
+<body>
+    <header>
+        <h1><span>Moon Food</span></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="menu.html">Menu</a> </li>
+            <li> <a href="specials.html" target="_blank" id="specials-page">Specials</a></li>
+            <li> <a href="apply.html">Apply</a> </li>
+            <li> <a href="about.html">About</a> </li>
+        </ul>
+    </nav>
+
+    <article>
+        <h3><span>Food out of this world!</span></h3>
+    </article>
+
+    <section>
+        <form name="menuTable" id="menuTable">
+            <table id="menu-table">
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Picture</th>
+                    <th>Qty</th>
+                </tr>
+                <tr class="row">
+                    <td id="food0" class="food">Space Spaghetti</td>
+                    <td id="price0" class="price">13.95</td>
+                    <td><img src="images/menu_pic_1.jpeg"> </td>
+                    <td><input type="text" name="menu0" id="menu0" class="qty" value="0" /></td>
+                </tr>
+                <tr class="row">
+                    <td id="food1" class="food">Big Bang Burger</td>
+                    <td id="price1" class="price">12.95</td>
+                    <td><img src="images/menu_pic_2.jpeg"> </td>
+                    <td><input type="text" name="menu1" id="menu1" class="qty" value="0" /></td>
+                </tr>
+                <tr class="row">
+                    <td id="food2" class="food">Pulsar Pizza</td>
+                    <td id="price2" class="price">10.95</td>
+                    <td><img src="images/menu_pic_3.jpeg"> </td>
+                    <td><input type="text" name="menu2" id="menu2" class="qty" value="0" /></td>
+                </tr>
+                <tr class="row">
+                    <td id="food3" class="food">Futuristic Fries</td>
+                    <td id="price3" class="price">16.95</td>
+                    <td><img src="images/menu_pic_4.jpeg"> </td>
+                    <td><input type="text" name="menu3" id="menu3" class="qty" value="0" /></td>
+                </tr>
+                <tr class="row">
+                    <td id="food4" class="food">Neptune Nachos</td>
+                    <td id="price4" class="price">8.95</td>
+                    <td><img src="images/menu_pic_5.jpeg"> </td>
+                    <td><input type="text" name="menu4" id="menu4" class="qty" value="0" /></td>
+                </tr>
+                <tr class="row">
+                    <td id="food5" class="food">White Dwarf Wings</td>
+                    <td id="price5" class="price">11.95</td>
+                    <td><img src="images/menu_pic_6.jpeg"> </td>
+                    <td><input type="text" name="menu5" id="menu5" class="qty" value="0" /></td>
+                </tr>
+                <tr class="row">
+                    <td id="food6" class="food">Oort-Cloud Onion Rings</td>
+                    <td id="price6" class="price">8.95</td>
+                    <td><img src="images/menu_pic_7.jpeg"> </td>
+                    <td><input type="text" name="menu6" id="menu6" class="qty" value="0" /></td>
+                </tr>
+                <tr class="row">
+                    <td id="food7" class="food">Quasar-dillas</td>
+                    <td id="price7" class="price">11.95</td>
+                    <td><img src="images/menu_pic_8.jpeg"> </td>
+                    <td><input type="text" name="menu7" id="menu7" class="qty" value="0" /></td>
+                </tr>
+            </table>
+            <button type="button" id="calc-button">ORDER</button>
+        </form>
+    </section>
+
+    <footer>
+        <p><span>Copyright &copy; 2019&#95;Moon Food</span></p>
+    </footer>
+
+</body>
+
+</html>

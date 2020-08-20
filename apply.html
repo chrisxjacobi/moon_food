@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Moon Food</title>
+
+    <link href="reset.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+    <script src="JSCode/work.js" async></script>
+
+
+</head>
+
+<body>
+    <header>
+        <h1 id="banner"><span>Moon Food</span></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="menu.html">Menu</a> </li>
+            <li> <a href="specials.html" target="_blank" id="specials-page">Specials</a></li>
+            <li> <a href="apply.html">Apply</a> </li>
+            <li> <a href="about.html">About</a> </li>
+        </ul>
+    </nav>
+
+    <article>
+        <h3><span>Food out of this world!</span></h3>
+        <section>
+            <p><span>Complete the form below to launch your application toward our top-secret hiring headquarters!</span></p>
+        </section>
+
+        <!-- event handler runs the validate() function which alerts user if data is valid or not -->
+        <form id="app" onsubmit="validate()">
+            <ul>
+                <li>
+                    <label for="name">NAME:</label>
+                    <input type="text" id="name" name="name" required>
+                </li>
+                <li>
+                    <label for="mail">EMAIL:</label>
+                    <input type="email" id="mail" name="email" required>
+                </li>
+                <li>
+                    <label for="job">POSITION:</label>
+                    <select name="position" id="job" required>
+                        <option value="">???</option>
+                        <option value="job2">Front of house</option>
+                        <option value="job3">Back of house</option>
+                        <option value="job4">Floating in UFO above house</option>
+                    </select>
+                </li>
+                <li>
+                    <label>REQUEST:</label>
+                    <label for="PT">part-time</label>
+                    <input type="radio" name="job" id="PT" required>
+
+                    <label for="FT">full-time</label>
+                    <input type="radio" name="job" id="FT">
+                </li>
+                <div id="app-buttons">
+                    <input type="reset" value="Reset info">
+                    <input type="submit" value="Submit">
+                </div>
+            </ul>
+        </form>
+    </article>
+
+    <footer>
+        <p><span>Copyright &copy; 2019&#95;Moon Food</span></p>
+    </footer>
+
+</body>
+
+</html>
